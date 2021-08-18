@@ -1,0 +1,152 @@
+@media all and (max-width: 1201px) {
+    .team__item:nth-child(3) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media all and (max-width: 991px) {
+
+    .features__description {
+        padding: 100px 65px;
+    }
+
+    .expertise__content-items {
+        margin-bottom: 50px;
+    }
+    .expertise__content-item::before {
+        width: 100%;
+        
+    }
+    .expertise__item:last-child {
+        margin-top: 50px;
+    }
+
+    .portfolio__head-buttons {
+        margin-top: 50px;
+    }
+
+    
+    .contact__map {
+        height: 250px;
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .inner {
+        width: 90%;
+    }
+    .statistics__inner {
+        width: 80%;
+    }
+    
+    .expertise__item:nth-child(2) {
+        margin-top: 50px;
+    }
+    .pricing__item:nth-child(3) {
+        margin-top: 25px; 
+        margin-bottom: 100px;
+    }
+
+    .team__item:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .footer__social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__social-link:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer__contacts {
+        margin: 30px 0;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+    .header__content-title {
+        font-size: 85px;
+    }
+
+
+    /* уберем здесь меню */
+    /* .menu {
+        display: none;
+    } */
+
+    .menu {
+        /* display: none; */
+        opacity: 0;
+        position: absolute;
+        top: 110px;
+        right: 0;
+        width: 200px;
+        /* height: 300px; */
+
+        
+        transition: all 0.5s linear;
+    }
+
+
+    
+    /* меню видимое столбик */
+
+    .menu__columns {
+        display: flex;
+        opacity: 1;
+        transition: all 0.5s linear;
+    }
+
+    .menu__list-item {
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    .burger {
+        display: flex;     
+        flex-direction: column;
+        position: relative;
+        
+    }
+}
+
+@media all and (max-width: 575px) {
+    .portfolio__btn:nth-child(3), .portfolio__btn:nth-child(4) {
+        margin-top: 25px;
+    }
+    .pricing__item:nth-child(2) {
+        margin-top: 25px; 
+    }
+
+    .title {
+        font-size: 35px;
+    }
+    .header__content-title {
+        font-size: 70px;
+    }
+
+    .statistics__item-num {
+        font-size: 45px;
+    }
+    .slider__item-title {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .expertise__inner {
+        min-height: 1000px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .expertise__inner {
+        min-height: 1100px;
+    }
+}
