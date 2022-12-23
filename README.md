@@ -11,4 +11,4 @@ Training project
 - Bootstrap
 - BEM-methodology
 - Slider
-### Deploy: https://seriakovaoksana.github.io/Oxygen/
+### Deploy: https://oxymoor.github.io/Oxygen/
